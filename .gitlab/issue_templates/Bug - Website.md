@@ -13,3 +13,5 @@
 ### Expected behavior
 
 ### Relevant screenshots
+
+/label TYPE::BUG
