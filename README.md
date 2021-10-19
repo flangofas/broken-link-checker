@@ -1,5 +1,8 @@
 # Broken Links Tool for QA purposes
 
+[![pipeline status](https://git.alleo.tech/alt-projects/tff/tffict/threefold.io/badges/master/pipeline.svg)](https://git.alleo.tech/alt-projects/alc/alcbdb/rpcplus.alleochain.com/-/commits/master)
+[![coverage report](https://git.alleo.tech/alt-projects/tff/tffict/threefold.io/badges/master/coverage.svg)](https://git.alleo.tech/alt-projects/alc/alcbdb/rpcplus.alleochain.com/-/commits/master)
+
 ##  Setup
 
 ```bash
