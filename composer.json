@@ -17,7 +17,6 @@
         "phpmetrics/phpmetrics": "*",
         "phpstan/phpstan": "*",
         "phpunit/phpunit": "*",
-        "dbrekelmans/bdi": "^0.3.0",
         "squizlabs/php_codesniffer": "*",
         "icanhazstring/composer-unused": "*",
         "maglnet/composer-require-checker": "*"
