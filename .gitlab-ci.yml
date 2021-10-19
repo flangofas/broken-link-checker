@@ -58,7 +58,7 @@ phpunit:
     - yum -y install --setopt=tsflags=nodocs php-xdebug
   script:
     - XDEBUG_MODE=coverage ./vendor/bin/phpunit --colors=never
-#    - php coverage-checker.php build/coverage-report/clover.xml 80
+    - php coverage-checker.php build/coverage-report/clover.xml 50
   artifacts:
     reports:
       cobertura: build/coverage-report/cobertura.xml

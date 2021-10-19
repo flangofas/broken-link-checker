@@ -49,4 +49,4 @@ RUN dbus-uuidgen > /etc/machine-id
 
 RUN npm install --global --unsafe-perm puppeteer
 
-#ENTRYPOINT ["bin/broken-links-tool"]
+ENTRYPOINT ["bin/broken-links-tool"]
