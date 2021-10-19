@@ -1,4 +1,4 @@
-image: alleotech/php-fpm:7.4
+image: alleotech/php-fpm:8.0
 
 stages:
   - setup
