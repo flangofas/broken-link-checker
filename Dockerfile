@@ -10,6 +10,7 @@ RUN yum install -y --setopt=tsflags=nodocs \
     php-cli \
     php-common \
     php-gd \
+    php-exif \
     php-json \
     php-mbstring \
     php-opcache \
@@ -48,4 +49,4 @@ RUN dbus-uuidgen > /etc/machine-id
 
 RUN npm install --global --unsafe-perm puppeteer
 
-ENTRYPOINT ["bin/broken-links-tool"]
+#ENTRYPOINT ["bin/broken-links-tool"]

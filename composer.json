@@ -5,6 +5,7 @@
     "require": {
         "php": "^8.0",
         "spatie/crawler": "^7.0",
+        "spatie/image": "^2.0",
         "guzzlehttp/psr7": "^1.8"
     },
     "require-dev": {
@@ -18,8 +19,7 @@
         "phpstan/phpstan": "*",
         "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*",
-        "icanhazstring/composer-unused": "*",
-        "maglnet/composer-require-checker": "*"
+        "icanhazstring/composer-unused": "*"
     },
     "config": {
         "sort-packages": true
