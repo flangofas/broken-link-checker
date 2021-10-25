@@ -9,11 +9,19 @@
     "require": {
         "php": "^8.0",
         "spatie/crawler": "^7.0",
+<<<<<<< HEAD
         "guzzlehttp/psr7": "^1.8",
         "symfony/var-dumper": "^5.3"
     },
     "require-dev": {
         "spatie/image": "^2.0",
+=======
+        "guzzlehttp/psr7": "^1.8"
+    },
+    "require-dev": {
+        "spatie/image": "^2.0",
+        "symfony/var-dumper": "^5.3",
+>>>>>>> @{-1}
         "ext-curl": "*",
         "ext-dom": "*",
         "brainmaestro/composer-git-hooks": "*",
@@ -40,10 +48,14 @@
             "pre-push": [
                 "./bin/composer test"
             ]
+<<<<<<< HEAD
         },
         "unused": [
             "symfony/var-dumper"
         ]
+=======
+        }
+>>>>>>> @{-1}
     },
     "scripts": {
         "test": [
