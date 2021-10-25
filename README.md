@@ -36,13 +36,13 @@ $ docker run --rm blt-centos:latest https://example.com
 ## Flags
 
 ```bash
-$ docker run --rm blt-centos:latest https://example.com ---enable-js
+$ docker run --rm blt-centos:latest https://example.com --enable-js
 # For JavaScript generated pages, defaults to false
 
-$ docker run --rm blt-centos:latest https://example.com ---invalid-urls
+$ docker run --rm blt-centos:latest https://example.com --invalid-urls
 # Print invalid URLs only
 
-$ docker run --rm blt-centos:latest https://example.com ---valid-urls
+$ docker run --rm blt-centos:latest https://example.com --valid-urls
 # Print valid URLs only
 
 # By default prints all URLs 
