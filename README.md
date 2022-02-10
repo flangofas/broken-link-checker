@@ -1,8 +1,8 @@
 # Broken Links Tool for QA purposes
 
 
-[![pipeline status](https://git.alleo.tech/alt-projects/tff/tffict/threefold.io/badges/master/pipeline.svg)](https://git.alleo.tech/alt-projects/tff/tffict/threefold.io/-/commits/master)
-[![coverage report](https://git.alleo.tech/alt-projects/tff/tffict/threefold.io/badges/master/coverage.svg)](https://git.alleo.tech/alt-projects/tff/tffict/threefold.io/-/commits/master)
+[![pipeline status](https://git.alleo.tech/alt-projects/alt/altdev/broken-link-checker/badges/master/pipeline.svg)](https://git.alleo.tech/alt-projects/alt/altdev/broken-link-checker/-/commits/master)
+[![coverage report](https://git.alleo.tech/alt-projects/alt/altdev/broken-link-checker/badges/master/coverage.svg)](https://git.alleo.tech/alt-projects/alt/altdev/broken-link-checker/-/commits/master)
 
 ##  Setup
 
