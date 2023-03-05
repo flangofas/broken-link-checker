@@ -1,0 +1,58 @@
+{
+    "name": "alleochain/broken-links-tool",
+    "description": "AlleoTech QA tool",
+    "license": "MIT",
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.0",
+        "spatie/crawler": "^7.0",
+        "guzzlehttp/psr7": "^1.8",
+        "symfony/var-dumper": "^5.3"
+    },
+    "require-dev": {
+        "spatie/image": "^2.0",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "brainmaestro/composer-git-hooks": "*",
+        "friendsofphp/php-cs-fixer": "*",
+        "phpmd/phpmd": "*",
+        "phpmetrics/phpmetrics": "*",
+        "phpstan/phpstan": "*",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "icanhazstring/composer-unused": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alleochain\\BrokenLinksTool\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "hooks": {
+            "pre-push": [
+                "./bin/composer test"
+            ]
+        },
+        "unused": [
+            "symfony/var-dumper"
+        ]
+    },
+    "scripts": {
+        "test": [
+            "composer validate --strict",
+            "phpcs",
+            "php-cs-fixer fix -v --dry-run",
+            "composer unused",
+            "phpstan analyse --memory-limit=-1",
+            "XDEBUG_MODE=coverage phpunit --colors=always"
+        ]
+    }
+}

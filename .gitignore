@@ -1,0 +1,9 @@
+.env
+.idea/
+/build/
+/coverage/
+/vendor/
+/node_modules/
+/logs/*
+!/logs/README.md
+.phpunit.result.cache
